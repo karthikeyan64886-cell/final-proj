@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <p>Coure registration form</p>
+    <form action="">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <table>
+                <tr>
+                    <td><label for="">Firstname</label> </td>
+                    <td><input type="text" name="FN" placeholder="Ex:Karthi" size="15"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Surname</label></td>
+                    <td><input type="text" name="SN" placeholder="Ex:keyan"size="15">
+</td>
+                </tr>
+                <tr>
+                    <td><label for="">MobileNumber</label></td>
+                    <td><input type="text" name="mob" placeholder="Ex:1234567890" size="15" maxlength="10"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Email</label></td>
+                    <td> <input type="email" name="email" placeholder="Ex:abc@gmail.com" ></td>
+                </tr>
+                <tr>
+                    <td><label for="">Password</label></td>
+                    <td><input type="password" name="pwd" placeholder="min 8 characters"></td>
+                </tr>
+                <tr>
+                    <td><label for="">ConfirmPassword</label></td>
+                    <td><input type="password" name="cpwd" placeholder="min 8 characters"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Date of Brith</label></td>
+                    <td><input type="date" name="dob"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Gender</label></td>
+                <td><input type="radio" name="gender" value="M">Male
+                <input type="radio" name="gender" value="F">Female
+                <input type="radio" name="gender" value="C">Custom</td>
+                </tr>
+                <tr>
+                    <td><label for="">Select Country</label></td>
+                    <td><select name="Country">
+                    <option value="INDIA">INDIA</option>
+                    <option value="USA">USA</option>
+                    <option value="CHINA">CHINA</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Uploadfile</label></td>
+                    <td><input type="file" name="file"></td>
+                </tr>
+                <tr>
+                    <td><input type="reset"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Course Details</legend>
+            <table>
+                <tr>
+                    <td><label for="">SelectCourse</label></td>
+                    <td><select name="Course">
+                <option value="Advanced java">Java full stack</option>
+                <option value="Python">Python</option>
+                <option value="Core java">core Java</option>
+            </select></td>
+                </tr>
+                <tr>
+                    <td><label for="">Delivery mode</label></td>
+                    <td><input type="checkbox" name="on" value="online">online
+            <input type="checkbox" name="of" value="online">Offline</td>
+                </tr>
+                <tr>
+                    <td><label for="">Comments</label></td>
+                </tr>
+            </table>
+            <textarea name="Textarea" rows="6" cols="50"></textarea>
+            <br>
+        </fieldset>
+        <img height="75" width="75"  src="https://cdn-icons-png.flaticon.com/128/5579/5579808.png" type="input" >
+    </form>
+</body>
+</html>
